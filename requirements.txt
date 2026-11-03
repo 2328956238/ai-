@@ -1,0 +1,32 @@
+# ---- Web ----
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+slowapi==0.1.9
+python-multipart==0.0.20
+
+# ---- 配置 / 校验 ----
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# ---- 数据库 ----
+SQLAlchemy==2.0.36
+pymysql==1.1.1
+asyncmy==0.2.9          # MySQL 异步驱动（生产）
+aiosqlite==0.20.0       # SQLite 异步驱动（本地/测试）
+alembic==1.14.0
+
+# ---- 缓存 ----
+redis==5.2.1
+
+# ---- HTTP / 重试 ----
+httpx==0.28.1
+tenacity==9.0.0
+
+# ---- 表格 ----
+openpyxl==3.1.5
+
+# ---- 测试 ----
+pytest==8.3.4
+pytest-asyncio==0.24.0
+anyio==4.7.0
