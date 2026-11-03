@@ -1,6 +1,7 @@
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-sqlalchemy==2.0.23
-pymysql==1.1.0
-redis==5.0.1
-python-dotenv==1.0.0
+# 本文件已废弃，请使用 requirements.txt
+#
+# 原内容缺少 httpx / tenacity / slowapi / openpyxl / pytest 等必需依赖，
+# 按本文件安装后应用会在 import 阶段失败。
+#
+# 正确安装方式：
+#   pip install -r requirements.txt

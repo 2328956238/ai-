@@ -1,6 +1,18 @@
 .env
+.env.local
+
 __pycache__/
 *.pyc
+*.pyo
+.pytest_cache/
+
 venv/
+.venv/
+
 error_reports/
 *.log
+
+# 本地数据库（评测与演示都是临时生成，不入库）
+*.db
+*.sqlite
+*.sqlite3
